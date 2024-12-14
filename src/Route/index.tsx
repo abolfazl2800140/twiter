@@ -1,4 +1,3 @@
-import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from '../Pages/Home';
 import Profile from '../Pages/Profile/indedx';
