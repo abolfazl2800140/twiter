@@ -31,7 +31,7 @@ const Home: React.FC = () => {
   });
 
   return (
-    <div>{data?.map((item) => <div>{item?.salam}</div>)}
+    <div className='bg-gray-950'>{data?.map((item) => <div className='text-emerald-400'>{item?.salam}</div>)}
     wefwrgwrgrf</div>
   )
 }
