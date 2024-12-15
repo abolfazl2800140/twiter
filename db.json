@@ -1,24 +1,30 @@
 {
-  "data": [
+  "user": [
     {
-      "salam": 12,
-      "id": "825d"
+      "name": "abolfazl",
+      "email": "abolfazl@gmail.com",
+      "password": "abolfazl",
+      "id": 1,
+      "follower": [{ "name": "mahdi", "id": 2 }],
+      "following": [{ "name": "mahdi", "id": 2 }]
     },
     {
-      "salam": 12,
-      "id": "6874"
-    },
+      "name": "mahdi",
+      "email": "mahdi@gmail.com",
+      "password": "mahdi",
+      "id": 2,
+      "follower": [{ "name": "abolfazl", "id": 1 }],
+      "following": [{ "name": "abolfazl", "id": 1 }]
+    }
+  ],
+  "twite": [
     {
-      "salam": 12,
-      "id": "2572"
-    },
-    {
-      "salam": 12,
-      "id": "82d5"
-    },
-    {
-      "salam": 12,
-      "id": "7451"
+      "autherName": "abolfazl",
+      "autherEmail": "abolfazl@gmail.com",
+      "title": "کرفس با اختلاف بهترین وعده غذاییه چون امکان نداره کسی برای صبحونه کرفس درست کنه",
+      "id": 1,
+      "comments": [],
+      "likes": []
     }
   ]
 }
