@@ -5,16 +5,16 @@
       "email": "abolfazl@gmail.com",
       "password": "abolfazl",
       "id": 1,
-      "follower": [{ "name": "mahdi", "id": 2 }],
-      "following": [{ "name": "mahdi", "id": 2 }]
+      "followers": [{ "name": "mahdi", "id": 2, "date": 2134234 }],
+      "following": [{ "name": "mahdi", "id": 2, "date": 2134238 }]
     },
     {
       "name": "mahdi",
       "email": "mahdi@gmail.com",
       "password": "mahdi",
       "id": 2,
-      "follower": [{ "name": "abolfazl", "id": 1 }],
-      "following": [{ "name": "abolfazl", "id": 1 }]
+      "followers": [{ "name": "abolfazl", "id": 1, "date": 2134243 }],
+      "following": [{ "name": "abolfazl", "id": 1, "date": 21342 }]
     }
   ],
   "twite": [
@@ -22,9 +22,17 @@
       "autherName": "abolfazl",
       "autherEmail": "abolfazl@gmail.com",
       "title": "کرفس با اختلاف بهترین وعده غذاییه چون امکان نداره کسی برای صبحونه کرفس درست کنه",
-      "id": 1,
-      "comments": [],
-      "likes": []
+      "twiteId": 1,
+      "comments": [
+        {
+          "name": "abolfazl@gmail.com",
+          "email": "abolfazl",
+          "title": "نه این کافی نیست بامیه هم بهش اضافه کن😑",
+          "id": 1
+        }
+      ],
+      "likes": [1, 2],
+      "date": 3414
     }
   ]
 }
