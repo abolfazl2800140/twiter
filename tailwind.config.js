@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}", // این خط مسیر فایل‌های TypeScript و JSX را مشخص می‌کند
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        iranyekan: ["IRANYekan", "sans-serif"],
+      },
+    },
   },
   plugins: [],
 };

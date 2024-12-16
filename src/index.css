@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "IRANYekanFaNum";
+  src: url("../public/fonts/IRANYekanFaNum.svg#IRANYekanFaNum") format("svg"),
+    url("../public/fonts/IRANYekanFaNum.ttf") format("truetype"),
+    url("../public/fonts/IRANYekanFaNum.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IRANYekan";
+  src: url("../public/fonts/IRANYekanRegular(FaNum).eot");
+  src: url("../public/fonts/IRANYekanRegular(FaNum).eot?#iefix")
+      format("embedded-opentype"),
+    url("../public/fonts/IRANYekanRegular(FaNum).woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
