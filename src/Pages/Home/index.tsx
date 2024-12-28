@@ -2,6 +2,7 @@ import React from "react";
 import Get from "../../Utils/api/Get";
 import Post from "../../Utils/api/Post";
 import { useQuery } from "@tanstack/react-query";
+import Chat from "../../Components/Chat";
 
 type DataItem = {
   id: string;
@@ -29,19 +30,7 @@ const Home: React.FC = () => {
     queryFn: getData,
   });
 
-  return (
-    <div className="flex h-dvh w-dvw p-6 ">
-      <div className="basis-1/4">
-        <h1 className="text-lg font-iranyekan">توییتر فارسی</h1>
-      </div>
-      <div className="basis-1/2">
-        <h1>Main</h1>
-      </div>
-      <div className="flex flex-row-reverse basis-1/4">
-        <h1 className="">User Detail</h1>
-      </div>
-    </div>
-  );
+  return <div>home</div>;
 };
 
 export default Home;

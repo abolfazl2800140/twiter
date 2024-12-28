@@ -8,6 +8,9 @@ module.exports = {
       fontFamily: {
         iranyekan: ["IRANYekan", "sans-serif"],
       },
+      backgroundColor: {
+        main: "rgba(255, 255, 255, 0.80)",
+      },
     },
   },
   plugins: [],
